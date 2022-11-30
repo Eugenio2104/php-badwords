@@ -22,19 +22,15 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
   <title>PHP Badwords</title>
 </head>
 <body>
-
-
-  
   <div class="container">
     <div class="row">
-    <h1 class="mb-5">PHP Badwords</h1>
-    <form action="./pagina-di-atterraggio.php" method="POST" class="d-flex flex-column">
-      <input type="text" name="insulto" placeholder="scrivi la parola da censurare" >
-      <textarea type="text" name="paragrafo" placeholder="scrivi un insulto con la parola da censurare"></textarea>
-      <button type="submit">insulta</button>
-    </form>
-</div>
-</div>
-
+      <h1 class="mb-5">PHP Badwords</h1>
+      <form action="./pagina-di-atterraggio.php" method="POST" class="d-flex flex-column">
+        <input type="text" name="insulto" placeholder="scrivi la parola da censurare" >
+        <textarea type="text" name="paragrafo" placeholder="scrivi un insulto con la parola da censurare"></textarea>
+        <button type="submit">insulta</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
