@@ -20,22 +20,17 @@ $paragrafo =$_POST['paragrafo'];
   <div class="container">
     <div class="row">
 
-    
       <h1>L'insulto che hai scritto è: <?php echo $insulto ?></h1>
 
       <p><?php echo $paragrafo?></p>
       <h2>lunghezza paragrafo <?php echo strlen($paragrafo)?></h2>
 
-
       <h2>censuriamo l'insulto</h2>
       <p><?php echo str_replace($insulto, '***', $paragrafo)?></p>
 
-
       <?php echo $paragrafo_esploso = explode(' ', $paragrafo ) ?>
- 
 
       <?php var_dump( $paragrafo_esploso) ?>
-
 
     </div>
   </div>
